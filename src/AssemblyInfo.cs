@@ -82,9 +82,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("0.86.0.518")]
 [assembly: AssemblyInformationalVersionAttribute("0.86.0")]
 
-
-[assembly: CLSCompliant(true)]
-
 #if (!NETCF)
 //
 // If #Zip is strongly named it still allows partially trusted callers

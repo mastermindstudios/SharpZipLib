@@ -184,7 +184,6 @@ namespace ICSharpCode.SharpZipLib.Zip.Compression
 			/// </summary>
 			public void BuildCodes() 
 			{
-				int numSymbols = freqs.Length;
 				int[] nextCode = new int[maxLength];
 				int code = 0;
 
